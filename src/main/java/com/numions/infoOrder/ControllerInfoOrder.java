@@ -94,7 +94,7 @@ public class ControllerInfoOrder {
 
 
     }
-
+/*
     @GetMapping("Delivery")
     public ResponseEntity<String> mostrarFecha(){
 
@@ -106,8 +106,8 @@ public class ControllerInfoOrder {
 
         }
 
-                return new ResponseEntity<>(var2, HttpStatus.OK);
+                return new ResponseEntity<String>(var2, HttpStatus.OK);
     }
-
+*/
 }
 
